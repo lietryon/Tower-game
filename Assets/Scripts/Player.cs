@@ -4,11 +4,21 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+
+    public float speed;
+    public float jumpVelocity;
+
+    Rigidbody2D rb;
+
+    void Awake()
+    {
+        rb = GetComponent<Rigidbody2D> ();
+    }
     // Update is called once per frame
     void Update()
     {
         // Move the character
-        transform.Translate(Input.GetAxis("Horizontal")* 15f * Time.deltaTime, 0f, 0f);
+        transform.Translate(Input.GetAxis("Horizontal")* speed * Time.deltaTime, 0f, 0f);
 
         // Flip the character
         Vector3 characterScale = transform.localScale;
@@ -20,7 +30,13 @@ public class Player : MonoBehaviour
         {
             characterScale.x = 1;
         }
-        transform.localScale = characterScale;
-        
+        transform.localScale = characterScale;  
+
+        // Jump
+
+        if(Input.GetKey(KeyCode.W))
+        {
+            rb.velocity += Vector2.up * jumpVelocity;
+        }
     }
 }
