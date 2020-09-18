@@ -17,6 +17,13 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(Input.GetKey(KeyCode.W))
+        {
+            Jump();
+        }
+
+        
+
         // Move the character
         transform.Translate(Input.GetAxis("Horizontal")* speed * Time.deltaTime, 0f, 0f);
 
@@ -30,13 +37,11 @@ public class Player : MonoBehaviour
         {
             characterScale.x = 1;
         }
-        transform.localScale = characterScale;  
+        transform.localScale = characterScale;
+    }
 
-        // Jump
-
-        if(Input.GetKey(KeyCode.W))
-        {
-            rb.velocity += Vector2.up * jumpVelocity;
-        }
+    void Jump()
+    {
+        rb.velocity += Vector2.up * jumpVelocity;
     }
 }
