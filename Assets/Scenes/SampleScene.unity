@@ -163,7 +163,7 @@ GameObject:
   m_Component:
   - component: {fileID: 110534030}
   - component: {fileID: 110534029}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Stairs_tile1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -246,7 +246,7 @@ GameObject:
   m_Component:
   - component: {fileID: 256831610}
   - component: {fileID: 256831611}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lava_tile1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -328,7 +328,7 @@ GameObject:
   m_Component:
   - component: {fileID: 361569925}
   - component: {fileID: 361569924}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Platform5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -388,7 +388,7 @@ GameObject:
   m_Component:
   - component: {fileID: 394253017}
   - component: {fileID: 394253018}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lava_tile1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -470,7 +470,7 @@ GameObject:
   m_Component:
   - component: {fileID: 441453197}
   - component: {fileID: 441453196}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Platform_thirdfloor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -630,7 +630,7 @@ GameObject:
   m_Component:
   - component: {fileID: 538449884}
   - component: {fileID: 538449885}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lava_tile1 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -712,7 +712,7 @@ GameObject:
   m_Component:
   - component: {fileID: 572785142}
   - component: {fileID: 572785143}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lava_tile1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -794,7 +794,7 @@ GameObject:
   m_Component:
   - component: {fileID: 589296063}
   - component: {fileID: 589296064}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lava_tile1 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -877,7 +877,7 @@ GameObject:
   - component: {fileID: 595180907}
   - component: {fileID: 595180909}
   - component: {fileID: 595180908}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Square (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -985,7 +985,7 @@ GameObject:
   m_Component:
   - component: {fileID: 604831800}
   - component: {fileID: 604831801}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lava_tile1 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1067,7 +1067,7 @@ GameObject:
   m_Component:
   - component: {fileID: 697869062}
   - component: {fileID: 697869063}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lava_tile1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1150,7 +1150,7 @@ GameObject:
   - component: {fileID: 731504829}
   - component: {fileID: 731504828}
   - component: {fileID: 731504830}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1343,7 +1343,7 @@ GameObject:
   m_Component:
   - component: {fileID: 913142564}
   - component: {fileID: 913142565}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lava_tile1 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1486,7 +1486,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1136536258}
   - component: {fileID: 1136536259}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Platform2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1577,7 +1577,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1211818211}
   - component: {fileID: 1211818212}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lava_tile1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1659,7 +1659,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1265509592}
   - component: {fileID: 1265509593}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lava_tile1 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1741,7 +1741,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1297490896}
   - component: {fileID: 1297490895}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Stairs_tile1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1824,7 +1824,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1484409312}
   - component: {fileID: 1484409313}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Platform_thirdfloor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1882,7 +1882,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1516443975}
   - component: {fileID: 1516443976}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lava_tile1 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1964,7 +1964,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1603964200}
   - component: {fileID: 1603964201}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Platform4big
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2085,8 +2085,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a916e9f5aa96f14fb50384d60305bea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  platformsLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
   speed: 10
-  jumpVelocity: 10
+  jumpVelocity: 3
 --- !u!1 &2003274640
 GameObject:
   m_ObjectHideFlags: 0
@@ -2097,7 +2100,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2003274641}
   - component: {fileID: 2003274642}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lava_tile1 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2179,7 +2182,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2028880586}
   - component: {fileID: 2028880587}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lava_tile1 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2261,7 +2264,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2029228266}
   - component: {fileID: 2029228267}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lava_tile1 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2343,7 +2346,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2048360025}
   - component: {fileID: 2048360024}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
