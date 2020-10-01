@@ -50,7 +50,5 @@ public class Player : MonoBehaviour
     void Jump()
     {
         GetComponent<Rigidbody2D>().AddForce(jumpHeight, ForceMode2D.Impulse);
-
-
     }
 }
