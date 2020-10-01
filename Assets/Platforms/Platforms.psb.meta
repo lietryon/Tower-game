@@ -118,7 +118,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 105
+      x: 190
       y: 1012
       width: 76
       height: 60
@@ -132,7 +132,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 105, y: 988}
+    uvTransform: {x: 190, y: 988}
   - name: Background
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -155,6 +155,28 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4, y: 4}
+  - name: Left Lower Corner Wall
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 105
+      y: 1012
+      width: 77
+      height: 77
+    spriteID: f2e35b1beaf20a343a01babbba658678
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -44, y: 988}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
@@ -174,6 +196,13 @@ ScriptedImporter:
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
+  - name: Left Lower Corner Wall
+    spriteName: Left Lower Corner Wall
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f2e35b1beaf20a343a01babbba658678
+    layerID: 8
+    mosaicPosition: {x: 105, y: 1012}
   - name: Platform2
     spriteName: Platform2
     isGroup: 0
@@ -187,7 +216,7 @@ ScriptedImporter:
     parentIndex: -1
     spriteID: 0da3974c04fb3d149bc68a05f663b5a7
     layerID: 3
-    mosaicPosition: {x: 105, y: 1012}
+    mosaicPosition: {x: 190, y: 1012}
   - name: Background
     spriteName: Background
     isGroup: 0

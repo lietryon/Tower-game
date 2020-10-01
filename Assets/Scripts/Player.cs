@@ -5,12 +5,14 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
 
-    [SerializeField] private LayerMask platformsLayerMask;
+    public LayerMask ground;
     private BoxCollider2D boxCollider2d;
     private Rigidbody2D rb;
+    public Transform groundCheck;
+    public float radius;
+    public bool isGrounded;
     public float speed;
     public Vector2 jumpHeight;
-    public float jump;
 
     void Awake()
     {
@@ -20,7 +22,9 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (IsGrounded() && (Input.GetKey(KeyCode.W)))
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, radius, ground);
+        
+        if (isGrounded && (Input.GetKey(KeyCode.W)))
         {
             Jump();
         }
@@ -48,11 +52,5 @@ public class Player : MonoBehaviour
         GetComponent<Rigidbody2D>().AddForce(jumpHeight, ForceMode2D.Impulse);
 
 
-    }
-
-    bool IsGrounded()
-    {
-        RaycastHit2D raycastHit2d = Physics2D.BoxCast(boxCollider2d.bounds.center, boxCollider2d.bounds.size, 0f, Vector2.down, .1f, platformsLayerMask);
-        return raycastHit2d.collider != null;
     }
 }
