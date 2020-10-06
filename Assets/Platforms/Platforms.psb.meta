@@ -118,8 +118,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 190
-      y: 1012
+      x: 539
+      y: 1097
       width: 76
       height: 60
     spriteID: 0da3974c04fb3d149bc68a05f663b5a7
@@ -132,7 +132,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 190, y: 988}
+    uvTransform: {x: 539, y: 1073}
   - name: Background
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -162,8 +162,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 105
-      y: 1012
+      x: 174
+      y: 1097
       width: 77
       height: 77
     spriteID: f2e35b1beaf20a343a01babbba658678
@@ -176,7 +176,139 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -44, y: 988}
+    uvTransform: {x: 25, y: 1073}
+  - name: Spikes
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 623
+      y: 1097
+      width: 72
+      height: 36
+    spriteID: b2094a3dd78669c45a3b0ba58cc26c33
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 324, y: 1073}
+  - name: Door2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1097
+      width: 77
+      height: 80
+    spriteID: 258adcf9de57db042bfb0f1d2eb55086
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -896, y: 1079}
+  - name: Door
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 1097
+      width: 77
+      height: 80
+    spriteID: 4ed6bed08c9a3f4498a203f7cc34aa79
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -660, y: 1079}
+  - name: Lever3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 259
+      y: 1097
+      width: 143
+      height: 38
+    spriteID: 81eb59a04d881ee4eb6eab0ed222c98e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -351, y: 1073}
+  - name: Lever2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 410
+      y: 1097
+      width: 121
+      height: 44
+    spriteID: 949ec62dab824ab4db310ea66ec5b767
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -62, y: 1073}
+  - name: Lever
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 703
+      y: 1097
+      width: 61
+      height: 38
+    spriteID: 42f1012fc3098124195d1e2e4dd2d4fc
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 246, y: 1073}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
@@ -196,13 +328,55 @@ ScriptedImporter:
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
+  - name: Door2
+    spriteName: Door2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 258adcf9de57db042bfb0f1d2eb55086
+    layerID: 20
+    mosaicPosition: {x: 4, y: 1097}
+  - name: Door
+    spriteName: Door
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 4ed6bed08c9a3f4498a203f7cc34aa79
+    layerID: 19
+    mosaicPosition: {x: 89, y: 1097}
+  - name: Lever3
+    spriteName: Lever3
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 81eb59a04d881ee4eb6eab0ed222c98e
+    layerID: 18
+    mosaicPosition: {x: 259, y: 1097}
+  - name: Lever2
+    spriteName: Lever2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 949ec62dab824ab4db310ea66ec5b767
+    layerID: 16
+    mosaicPosition: {x: 410, y: 1097}
+  - name: Lever
+    spriteName: Lever
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 42f1012fc3098124195d1e2e4dd2d4fc
+    layerID: 15
+    mosaicPosition: {x: 703, y: 1097}
+  - name: Spikes
+    spriteName: Spikes
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b2094a3dd78669c45a3b0ba58cc26c33
+    layerID: 14
+    mosaicPosition: {x: 623, y: 1097}
   - name: Left Lower Corner Wall
     spriteName: Left Lower Corner Wall
     isGroup: 0
     parentIndex: -1
     spriteID: f2e35b1beaf20a343a01babbba658678
     layerID: 8
-    mosaicPosition: {x: 105, y: 1012}
+    mosaicPosition: {x: 174, y: 1097}
   - name: Platform2
     spriteName: Platform2
     isGroup: 0
@@ -216,7 +390,7 @@ ScriptedImporter:
     parentIndex: -1
     spriteID: 0da3974c04fb3d149bc68a05f663b5a7
     layerID: 3
-    mosaicPosition: {x: 190, y: 1012}
+    mosaicPosition: {x: 539, y: 1097}
   - name: Background
     spriteName: Background
     isGroup: 0
